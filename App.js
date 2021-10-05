@@ -1,13 +1,13 @@
-// import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-// import Home from './components/Home/Home';
-// import About from './components/About/About';
-// import Review from './components/Review/Review';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Review from './components/Review/Review';
 import NotFound from './components/NotFound/NotFound';
-// import SingleServices from './components/SingleService/SingleServices';
+import SingleServices from './components/SingleService/SingleServices';
 
 function App() {
   return (
